@@ -11,9 +11,9 @@
   --primery-bg-color: #2f303a;
   --bg-color: #2196f3;
   --logo-hover: #188ce8;
-  --accent-up:#000000;
-  --team-background-color:#F5F4FA;
-  --footer-link:rgba(255, 255, 255, 0.6);
+  --accent-up: #000000;
+  --team-background-color: #f5f4fa;
+  --footer-link: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -44,11 +44,12 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   margin: none;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding-left: 0;
   list-style: none;
@@ -76,7 +77,7 @@ a {
 }
 
 /* ---------------------------- Heder   -----------------------              */
-.container{
+.container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -84,7 +85,7 @@ a {
   padding-right: 15px;
 }
 
-.header-container{
+.header-container {
   display: flex;
   justify-content: space-between;
 }
@@ -95,26 +96,25 @@ a {
   font-size: 26px;
   line-height: 1.2;
   text-decoration-line: none;
-    
 }
-.logo.up {    
+.logo.up {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-  }
-  
+}
+
 .logo:hover {
   color: var(--logo-hover);
 }
 .accent-up {
   color: var(--accent-up);
 }
-.nav-gen-container{
+.nav-gen-container {
   display: flex;
 }
-.nav-container{
+.nav-container {
   display: flex;
-    gap: 50px;
+  gap: 50px;
 }
 .mail-tel .link {
   color: var(--primery-text-color);
@@ -125,13 +125,10 @@ a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  
 }
-.mess-container{
+.mess-container {
   display: flex;
   gap: 50px;
-  
-  
 }
 /* ---------------------------- Hero   -----------------------              */
 .hero {
@@ -151,7 +148,7 @@ a {
   max-width: 697px;
   margin: 0 auto;
   margin-bottom: 30px;
- }
+}
 
 .hero .button:hover,
 .hero .button:focus {
@@ -171,27 +168,35 @@ a {
   border-radius: 4px;
   padding: 10px 32px;
   margin: 0 auto;
-  
 }
-.specialty{
+.specialty {
   padding: 94px;
 }
-.specialty-container{
+.specialty-container {
   display: flex;
   gap: 30px;
   min-width: 270px;
   justify-content: space-between;
 }
-.activities{
+.specialty-item {
+  flex-shrink: 0;
+  max-width: 270px;
+}
+.activities {
   padding-bottom: 94px;
 }
-.activities-container{
+.activities-container {
   display: flex;
   gap: 30px;
   min-width: 370px;
 }
-.team{
+.team {
   padding: 94px;
+}
+.team-container {
+  display: flex;
+  gap: 30px;
+  min-width: 270px;
 }
 .activities-title-section {
   color: var(--title-text-color);
@@ -208,7 +213,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  
+
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -258,15 +263,14 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
+
   padding-top: 32px;
   padding-bottom: 32px;
-  width: 281px;;
+  width: 281px;
 }
 .site-nav .link.current {
   color: var(--bg-color);
 }
-
 
 /* ---------------------------- Footer   -----------------------              */
 .footer {
@@ -297,9 +301,9 @@ a {
   display: block;
   margin-bottom: 9px;
 }
-.tel{
+.tel {
   display: block;
- }
+}
 
 /* ---------------------------- Portfolio   -----------------------              */
 .button.secondary {
@@ -320,31 +324,26 @@ a {
 
 .card-wrapper {
   margin-bottom: 34px;
-
 }
 .filter {
   margin-bottom: 34px;
   display: flex;
   gap: 8px;
   justify-content: center;
-
 }
 
-.portfolio{
+.portfolio {
   margin-top: 34px;
-
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
 }
-.portfolio-card{
-  
-    max-width: 370px;
-    flex-basis:calc((100%-60px)/3) ;
-  border: 1px solid #EEEEEE;
+.portfolio-card {
+  max-width: 370px;
+  flex-basis: calc((100%-60px) / 3);
+  border: 1px solid #eeeeee;
 }
 .portfolio-title {
   color: var(--title-text-color);
